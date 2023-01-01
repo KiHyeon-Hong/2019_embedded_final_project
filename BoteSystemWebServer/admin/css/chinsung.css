@@ -1,0 +1,200 @@
+/* 메인 패턴 */
+header.masthead {
+  background: url("../img/batthern.png"), #000000;
+  background: url("../img/batthern.png"), -webkit-linear-gradient(to left, #000000, #724747);
+  background: url("../img/batthern.png"), linear-gradient(to left, #000000, #724747);
+}
+
+/* sns버튼 */
+.sns_area {z-index:750;position:absolute;top:100px;left:50px;width:126px}
+.sns_area a{float:left;display:block;overflow:hidden;width:38px;height:38px;margin-left:6px}
+.sns_area a:first-child{margin-left:0}
+.sns_area a:hover img,
+.sns_area a:focus img{margin-top:-38px}
+
+/* 블로그 로고 */
+.screen{padding-left: 10px;margin-left: 100px;}
+.screen1{position:absolute;top:120px;left:600px;}
+
+/* 스크롤 가이드 */
+.scroll_guide{z-index:999;display:none;position: absolute;top:0;left:0;width:100%;height:100%}
+.scroll_guide .scroll_bg{position:absolute;width:100%;height:100%;background:#000}
+.scroll_guide .scroll_img{margin-top:200px;margin-left: auto;margin-right:auto;width:377px;height:377px}
+.scroll_guide .scroll_img .scroll_back{display:block;position:absolute}
+.scroll_guide .scroll_img .scroll_arrow{display:block;position:absolute;margin: 140px;font-size: 35px;}
+
+/* 본문1 배경 */
+.bg-primary {
+  background: #2e2e2e;
+  background: -webkit-linear-gradient(#2e2e2e, #000000);
+  background: linear-gradient(#2e2e2e, #000000);
+}
+font-white,.white{  color: white;}
+.section-heading{  margin-bottom: 10px;}
+.badges{  margin-top: 100px;}
+.image-container {
+  background-image: url('../img/code-1076536_1920.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:300px;
+  height:700px;
+}
+.badge-link{
+  font-size: 80px;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.badges a:hover {
+  transform: scale(1.4);
+  color: white;
+  opacity: 1;  
+}
+.feature-item{
+	font-size: 80px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.feature-item:hover {
+  transform: scale(1.1);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+section.cta {
+  position: relative;
+  padding: 250px 0;
+  background-image: url("../img/matrix-1735640_1920.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container.col-md-5.mx-auto div p {text-align: left;}
+.imgswap {width: 800px;margin: auto;}
+
+/* Scroll Indicator */
+.progress-container {
+  width: 100%;
+  height: 3px;
+  background: rgba(204, 204, 204, 0);
+  position: absolute;
+  top: 56px;
+  left: 0;
+}
+.progress-bar {
+  height: 3px;
+  background: #4caf50;
+  width: 0%;
+}
+
+/* 스크롤바 */
+.scrollb{  overflow: auto;  height: 800px;}
+::-webkit-scrollbar {  width: 10px;}
+::-webkit-scrollbar-track {    background: #f1f1f1; }
+ ::-webkit-scrollbar-thumb {    background: #888; }
+::-webkit-scrollbar-thumb:hover {    background: #555; }
+
+/* 드롭다운 */
+.dropdown {    position: relative;  display: inline-block;    vertical-align: middle;}
+.dropdown-content {    display: none;  position: absolute;  background-color: #f9f9f9;  left: 0;  width: 100px;                    padding-top: 10px;                    padding-bottom: 10px;}
+.dropdown-content div:hover {background-color: #1aa39c2a;}
+.dropdown-content i{  font-size: 40px;padding: 10px;color: white;}
+.dropdown:hover .dropdown-content {    display: inline;  background-color: rgba(0, 0, 0, 0.329);}
+.dropbtn{  padding: auto;margin: auto;font-size: 40px;}
+.dropdown:hover {    background-color: #28dfff75;}
+.dropdown-main{  width: 100px;  height: 100px;  background-color: rgba(128, 128, 128, 0.411);  color: white;}
+#ruserimg, .dropdown-main i{  margin-top: 25px;  font-size: 40px;}
+
+.btn-outline-primary{height: 102px;padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px;width: 102px;top: 2px;border-radius: 2px;}
+#result{  color: rgba(128, 128, 128, 0.63);}
+
+/* 새로운창 인덱스 */
+.ch_win{position: absolute;top:0;left: 30px;width: 300px;height: 700px;background-color: rgba(255, 255, 255, 0.623);display: none;padding: 10px;color: #000;font-size: 40px;}
+.header-content p{  margin-top: 40px;}
+.header-content a{  float:right;margin-top: 30px;}
+
+/* about */
+#im{
+  margin-top: 20px;
+}
+#im button.btn-outline-primary{
+  width: 204px;
+  height: 54px;
+  border-radius: 5px;
+}
+#think {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.726);
+  color: black;
+  position: absolute;
+  left: 10%;
+  width: 80%;
+  z-index: 1;
+}
+#think xmp{
+  font-family: Muli,Helvetica,Arial,sans-serif;
+}
+
+
+/* post */
+section.features .feature-item i.linkicon {
+  font-size: 10px;position: absolute;top: 30px;right: 30px;
+}
+div.row>i.linkicon{/* 직계만적용 */
+    position: absolute;
+    right: 10px;
+    opacity: 0.2;
+  }
+
+/* 유튜브창 */
+.youtubebox{
+  top: 0;
+  display: none;
+  position: fixed;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.521);
+}
+.youtubebox .btn-outline-dark{
+  position: absolute;
+  right: 10%;
+  height: 30px;
+  width: 30px;
+  top: 70px;
+  background-color: black;
+  border-color: white;
+  color: white;
+  border-radius: 13px;
+  padding: 0;
+}
+.youtubebox .esc{
+  position: absolute;
+  right: 10%;
+  width: 80%;
+  top: 70px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+.youtube{
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+}
+
+/* parallax */
+.parallax {
+  height: 30%;  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pimg1{background-image: url("../img/code-1076536_1920.jpg");opacity: 0.3;}
+.pimg2{background-image: url("../img/black-minimalistic_00313541.jpg");}
+.pimg3{background-image: url("../img/1349855-1920x1080.jpg");}

@@ -1,0 +1,198 @@
+/* 메인 패턴 */
+header.masthead {
+  background: url("/img/batthern"), #000;
+  background: url("/img/batthern"), -webkit-linear-gradient(to left, #000, #397570);
+  background: url("/img/batthern"), linear-gradient(to left, #000, #397570);
+  
+  background-attachment: fixed;
+  background-position: center;
+}
+
+th, td {
+  padding: 15px;
+}
+
+div.row {
+  padding: 50px;
+}
+
+#page-top > header > div > div > div > div.container-fluid > div{
+  background-color: white;
+}
+
+#page-top > header > div > div > div > div.container-fluid > div > div.login {
+  color: black;
+}
+
+#page-top > header > div > div > div > div.container-fluid > div > div.login div {
+  display: inline-block;
+}
+
+#page-top > header > div > div > div > div.container-fluid > div > div.login > form > div > table > tbody > tr:nth-child(1) > td:nth-child(3){
+  
+  background-color: black;
+  color: white;
+
+}
+
+#page-top > header > div > div > div > div.container-fluid > div > div.login > form > div > table > tbody > tr:nth-child(1) > td:nth-child(3) > input[type=submit]{
+  width: 90px;
+  height: 90px;
+  border: 0;
+  background: black;
+  color: white;
+}
+
+#page-top > header > div > div > div > table > tbody > tr > td {
+  background-color: white;
+  color: black;
+}
+
+#page-top > header > div > div > div > table > tbody > tr:nth-child(1) > td {
+  background-color: #194038;
+  color: yellow;
+}
+
+
+
+
+.section-heading{  margin-bottom: 100px;}
+.badges{  margin-top: 100px;}
+.image-container {
+  background-image: url('img/code-1076536_1920.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:300px;
+  height:700px;
+}
+.badge-link{
+	  font-size: 80px;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.badges a:hover {
+    transform: scale(1.4);
+    color: white;
+    opacity: 1;  
+}
+.feature-item{
+	font-size: 80px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.feature-item:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.05);
+}
+section.cta {
+  position: relative;
+  padding: 250px 0;
+  background-image: url("img/matrix-1735640_1920.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* 새로운창 app*/
+.ch_app{
+  position: fixed;
+  top:100px;
+  left:10%;
+  width: 80%;
+  vertical-align: middle;
+  height: 700px;
+  background-color: rgba(255, 255, 255, 0.823);
+  display: none;
+  padding: 30px;
+  color: #000;
+  border-radius: 20px;
+  font-size: 40px;
+  padding-top: 40px;
+  z-index: 999;
+}
+
+.super{
+  min-width: 100%;
+}
+
+.super con{
+  position: absolute;
+  display: block;
+  right: 0px;
+  top : 0px;
+  overflow: auto;
+  height: 200px;
+  width: auto;
+  min-width: auto;
+  max-width: 70%;
+}
+
+/* 스크롤바 변경 */
+::-webkit-scrollbar {width: 10px;}
+::-webkit-scrollbar-track {background: #f1f1f1; }
+::-webkit-scrollbar-thumb {background: #888; }
+::-webkit-scrollbar-thumb:hover {background: #555; }
+
+.xbtn {
+  right: 0px;
+  position: absolute;
+  z-index: 1;
+  letter-spacing: 0;
+  top: 7px;
+  right: 7px;
+  padding: 5px;
+  border-radius: 1000px;
+  height: 28px;
+  vertical-align: middle;
+  padding-top: 1px;
+}
+.margin100 {
+  margin: 100px
+}
+.center{
+  text-align: center;
+}
+.form-control{
+  display: inline;max-width:200px;vertical-align: middle;
+}
+.chlay{
+  font-size:30px; position:absolute;right: 30px;
+  cursor: pointer;
+}
+#code {
+  font-size: 12px;font-weight: bold
+}
+.pre{
+  background-color: white; border-radius: 20px
+}
+
+con{
+  display: none;
+}
+
+
+/* 자동인덱싱 */
+body {  counter-reset: va;}
+.feature-item h3::before {
+  counter-increment: va;
+  font-size: 50%;
+  content: counter(va) "  ";
+}
+
+.ch_app .esc{
+  position: absolute;
+  right: 10%;
+  width: 80%;
+  top: 70px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  background-color: black;
+  padding: 10px;
+  opacity: 0.8;
+  top: -40px;
+}
